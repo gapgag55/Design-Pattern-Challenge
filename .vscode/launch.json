@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Application",
+      "request": "launch",
+      "mainClass": "Application"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - AnimalPlay",
       "request": "launch",
       "mainClass": "AnimalPlay"

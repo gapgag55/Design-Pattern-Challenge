@@ -1,9 +1,13 @@
 public class Application {
   public static void main(String[] args) {
-    Dialog webDialog = new WebDialog();
+
+    DialogFactory dialogFactory = new DialogFactory();
+    
+    Dialog webDialog = dialogFactory.makeDialog("web");
     webDialog.render();
   
-    Dialog windowsDialog = new WindowsDialog();
+    Dialog windowsDialog = dialogFactory.makeDialog("windows");
     windowsDialog.render();
+
   }
 }

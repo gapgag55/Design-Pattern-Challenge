@@ -1,6 +1,6 @@
 public class Database {
 
-  private static Database instance;
+  private static Database instance = null;
 
   public static Database getInstance() {
     if (instance == null) {

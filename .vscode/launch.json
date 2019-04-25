@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - AnimalPlay",
+      "request": "launch",
+      "mainClass": "AnimalPlay"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Client",
+      "request": "launch",
+      "mainClass": "Client"
+    }
+  ]
+}
